@@ -1,3 +1,6 @@
+
+import Personaje from "./personaje";
+
 class Asesor extends Personaje {
   asesorado;
   constructor(nombreAsesor, familiaAsesor, edadAsesor, personajeAsesorado) {
@@ -11,3 +14,5 @@ class Asesor extends Personaje {
     return `${super.comunicar()}No sé por qué, pero creo que voy a morir pronto`;
   }
 }
+
+export default Asesor;

@@ -1,4 +1,6 @@
 
+import Personaje from "./personaje";
+
 class Escudero extends Personaje {
   sirveA;
   pelotismo;
@@ -31,3 +33,5 @@ class Escudero extends Personaje {
     return `${super.comunicar()}Soy un loser`;
   }
 }
+
+export default Escudero;

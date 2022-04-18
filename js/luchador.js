@@ -1,3 +1,6 @@
+
+import Personaje from "./personaje";
+
 class Luchador extends Personaje {
   arma;
   destreza;
@@ -26,5 +29,9 @@ class Luchador extends Personaje {
 
   comunicar() {
     return `${super.comunicar()}Primero pego y luego pregunto`;
+
   }
 }
+
+
+export default Luchador;
