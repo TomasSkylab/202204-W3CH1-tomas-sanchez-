@@ -1,4 +1,6 @@
 
+import Personaje from "./personaje";
+
 class Rey extends Personaje {
   anyosReinado;
 
@@ -11,3 +13,5 @@ class Rey extends Personaje {
     return `${super.comunicar()}Vais a morir todos`;
   }
 }
+
+export default Rey;
