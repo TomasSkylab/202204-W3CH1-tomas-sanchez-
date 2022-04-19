@@ -49,9 +49,9 @@ class CardComponent {
             <i class="emoji"></i>
           </div>
         
-;
+`;
   }
-    `
+    
          
 }
 
