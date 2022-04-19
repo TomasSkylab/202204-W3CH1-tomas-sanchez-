@@ -13,10 +13,12 @@ module.exports = {
   },
   rules: {
     "no-plusplus": "off",
-    "no-restricted-syntax": "off", "lines-between-class-members": [
-    "error",
-    "always",
-    { exceptAfterSingleLine: true },
-]
+    "no-restricted-syntax": "off",
+    "lines-between-class-members": [
+      "error",
+      "always",
+      { exceptAfterSingleLine: true },
+    ],
+    "import/extensions": "off",
   },
 };
